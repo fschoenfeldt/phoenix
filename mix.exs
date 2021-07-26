@@ -1,7 +1,7 @@
 defmodule Phoenix.MixProject do
   use Mix.Project
 
-  @version "1.5.8"
+  @version "1.5.9"
 
   # If the elixir requirement is updated, we need to make the installer
   # use at least the minimum requirement used here. Although often the
@@ -73,7 +73,7 @@ defmodule Phoenix.MixProject do
       # Optional deps
       {:plug_cowboy, "~> 1.0 or ~> 2.2", optional: true},
       {:jason, "~> 1.0", optional: true},
-      {:phoenix_html, "~> 2.13", optional: true},
+      {:phoenix_html, "~> 2.13 or ~> 3.0", optional: true},
 
       # Docs dependencies
       {:ex_doc, "~> 0.22", only: :docs},

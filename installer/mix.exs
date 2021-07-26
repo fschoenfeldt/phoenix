@@ -1,7 +1,7 @@
 defmodule Phx.New.MixProject do
   use Mix.Project
 
-  @version "1.5.8"
+  @version "1.5.9"
   @github_path "phoenixframework/phoenix"
   @url "https://github.com/#{@github_path}"
 
@@ -43,7 +43,7 @@ defmodule Phx.New.MixProject do
 
   def deps do
     [
-      {:ex_doc, "~> 0.19.1", only: :docs}
+      {:ex_doc, "~> 0.23.0", only: :docs}
     ]
   end
 
